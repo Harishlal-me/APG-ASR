@@ -1,0 +1,27 @@
+# Compiled python
+__pycache__/
+*.pyc
+
+# Massive Checkpoints & Weights
+*.pt
+models/
+
+# Heavy Output Directories (Grids, Metrics, Checkpoints)
+outputs/
+experiments/
+
+# Research documents and raw data
+research/
+sample_images_raw/
+extrasamples/
+
+# Videos
+*.mp4
+demo_video/
+
+# IDE files
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
